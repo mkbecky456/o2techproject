@@ -1,0 +1,30 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title> 02 TECH CONSULTING FIRM TASK 2023
+</head>
+</head>
+<body>
+<h1 align="center">Welcome to 02 TECH CONSULTING FIRM application Project1 automation.</h1>
+<h1 align="center">Developing and supporting quality Software Solutions to millions of clients globally.
+	   IT Engineers with best performance are being taken, so as to achieve this goal.</h1>
+<hr>
+<br>
+	<h1><h3> Server Side IP Address </h3><br>
+
+<% 
+String ip = "";
+InetAddress inetAddress = InetAddress.getLocalHost();
+ip = inetAddress.getHostAddress();
+out.println("Server Host Name :: "+inetAddress.getHostName()); 
+%>
+<br>
+<%out.println("Server IP Address :: "+ip);%>
+		
+</h1>
+	
+<hr>
+
+</body>
+</html>
+
